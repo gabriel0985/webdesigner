@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel leonardo - Portifolio pessoal</title>
+    <link rel="stylesheet" href="portifolio.css">
+</head>
+
+<body>
+    <header>
+        <h1>Web designer Gabriel Leonardo</h1>
+        <h2>Portifolio de apresentação profissional para a area de Web design Front End</h2>
+        <h3>Formação academida Escola SENAI (Luis Massa) Botucatu</h3>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#Projetos">Projetos</a></li>
+            <li><a href="#Sobre">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="inicio">
+            <h2>INICIO</h2>
+            <p>Ola meu nome é Gabriel Leonardo, e eu sou um web designer recem certificado e estou a procura de
+                trabalho.</p>
+        </section>
+        <section id="Projetos">
+            <h2>PROJETOS</h2>
+            <article>
+                <h3>O ULTIMO IMPACTO</h3>
+                <img src="rpg.jpg" alt="projeto 1" width="500px">
+                <p>Um RPG de mesa criado por mim, anteriormente sendo apenas uma distração do dia dia, hoje se tornou um
+                    dos meus principais projetos.
+                    Graças ao curso de WEB DESIGN agora tenho os conhecimentos necessarios para criar uma pagina publica
+                    de informaçoes sobre o rpg como, personagens, historia, eventos e muito mais.
+                    Pretendo tambem criar um jogo no "RPG maker" para adaptar mais ainda minhas ideias que antes apenas
+                    compartilhei com amigos proximos sem muito compromisso.
+                </p>
+                <a herf="projeto.html">Saiba mais</a>
+            </article>
+            <article>
+                <h3>CURSO WEB DESIGN</h3>
+                <img src="web.jpg" alt="projeto 2" width="500">
+                <p>Estou frequentando o curso de web design no SENAI iniciei o curso com o intuito de ocupar meu tempo, porem com o avanço da materia acabei desenvolvendo um interesse muito grande
+                    em web design, o cueso tem sido extremamente proveitoso, apos encerralo pretendo botar em pratica os ensinamentos que adiquiri, principalmente no mercado de trabalho.
+                </p>
+                <a herf="projeto.html">Saiba mais</a>
+            </article>
+            <article>
+                <section id="Sobre">
+                    <h2>SOBRE MIM</h2>
+                    <article>
+                        <img src="Foto.jpg" alt="Sobre" width="200">
+                        <h3>Meu nome é Gabriel Leonardo, nasci no dia 3/05/2004, estou realizando o curso web designer
+                            front end na escola SENAI (Luis Massa) Botucatu,
+                            e um curso de ingles em minha cidade natal São Manuel na Sin Limit, procuro um trabalho na
+                            area de computação ou estagio remunerado, para adiquirir experiencia
+                            para adentrar no mercado de trabalho. </h3>
+                    </article>
+                    <article>
+                        <section id="contato">
+                            <h2>Confira minhas redes sociais abaixo</h2>
+                            <form id="form-contato"  onsubmit="return Validar()" action="agradecimento.html">
+                                <label for="nome">Nome:</label>
+                                <input type="text" id="nome" name="nome">
+
+                                <label for="email">E-mail:</label>
+                                <input type="email" id="email" name="email">
+
+                                <label for="mensagem">Mensagem:</label>
+                                <textarea id="mensagem" name="mensagem"></textarea>
+
+                                <input type="submit" value="Enviar">
+                            </form>
+
+                            <p>Clique em ENVIAR para ser enviado para outra pagina.</p>
+
+                        </section>
+                    </article>
+                </section>
+
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <ul>
+            <p>Entre em Contato</p>
+            <li><a href="https://www.facebook.com/gabriel.leonardo.188478?mibextid=ZbWKwL">Facebook</a></li>
+            <p>&copy; 2023 Gabriel Leonardo. Todos os direitos reservados.</p>
+            </ul>
+            <script src="portifolio.js"></script>
+
+
+    </footer>
+    </nav>
+
+</body>
+
+</html>
